@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'Exo 2';
+  src: local('Exo 2 Semi Bold'), local('Exo2-SemiBold'),
+  url('../../fonts/exo2-600-normal.woff2') format('woff2'),
+  url('../../fonts/exo2-600-normal.woff') format('woff'),
+  url('../../fonts/exo2-600-normal.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}

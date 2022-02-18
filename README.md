@@ -36,6 +36,15 @@ body {
 
 Для импорта веб-шрифта в SCSS, Вы можете воспользоваться следующими путями:
 
+**Импорт начертаний: `normal` и `italic`:**
+
+```scss 
+@import "node_modules/@getscope/npm-webfont-exo2/src/scss/_all-normal.scss";
+@import "node_modules/@getscope/npm-webfont-exo2/src/scss/_all-italic.scss";
+```
+
+**Импорт начертаний: `normal`**
+
 ```scss 
 @import "node_modules/@getscope/npm-webfont-exo2/src/scss/_100-normal.scss";
 @import "node_modules/@getscope/npm-webfont-exo2/src/scss/_200-normal.scss";
@@ -47,4 +56,19 @@ body {
 @import "node_modules/@getscope/npm-webfont-exo2/src/scss/_800-normal.scss";
 @import "node_modules/@getscope/npm-webfont-exo2/src/scss/_900-normal.scss";
 @import "node_modules/@getscope/npm-webfont-exo2/src/scss/_all-normal.scss";
+```
+
+**Импорт начертаний: `italic`**
+
+```scss 
+@import "node_modules/@getscope/npm-webfont-exo2/src/scss/_100-italic.scss";
+@import "node_modules/@getscope/npm-webfont-exo2/src/scss/_200-italic.scss";
+@import "node_modules/@getscope/npm-webfont-exo2/src/scss/_300-italic.scss";
+@import "node_modules/@getscope/npm-webfont-exo2/src/scss/_400-italic.scss";
+@import "node_modules/@getscope/npm-webfont-exo2/src/scss/_500-italic.scss";
+@import "node_modules/@getscope/npm-webfont-exo2/src/scss/_600-italic.scss";
+@import "node_modules/@getscope/npm-webfont-exo2/src/scss/_700-italic.scss";
+@import "node_modules/@getscope/npm-webfont-exo2/src/scss/_800-italic.scss";
+@import "node_modules/@getscope/npm-webfont-exo2/src/scss/_900-italic.scss";
+@import "node_modules/@getscope/npm-webfont-exo2/src/scss/_all-italic.scss";
 ```

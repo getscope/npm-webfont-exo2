@@ -46,6 +46,10 @@ body {
 #### Импорт начертаний `normal`
 
 ```scss 
+@import "node_modules/@getscope/npm-webfont-exo2/src/scss/_all-normal.scss";
+```
+
+```scss 
 @import "node_modules/@getscope/npm-webfont-exo2/src/scss/_100-normal.scss";
 @import "node_modules/@getscope/npm-webfont-exo2/src/scss/_200-normal.scss";
 @import "node_modules/@getscope/npm-webfont-exo2/src/scss/_300-normal.scss";
@@ -55,10 +59,13 @@ body {
 @import "node_modules/@getscope/npm-webfont-exo2/src/scss/_700-normal.scss";
 @import "node_modules/@getscope/npm-webfont-exo2/src/scss/_800-normal.scss";
 @import "node_modules/@getscope/npm-webfont-exo2/src/scss/_900-normal.scss";
-@import "node_modules/@getscope/npm-webfont-exo2/src/scss/_all-normal.scss";
 ```
 
 #### Импорт начертаний `italic`
+
+```scss 
+@import "node_modules/@getscope/npm-webfont-exo2/src/scss/_all-italic.scss";
+```
 
 ```scss 
 @import "node_modules/@getscope/npm-webfont-exo2/src/scss/_100-italic.scss";
@@ -70,5 +77,4 @@ body {
 @import "node_modules/@getscope/npm-webfont-exo2/src/scss/_700-italic.scss";
 @import "node_modules/@getscope/npm-webfont-exo2/src/scss/_800-italic.scss";
 @import "node_modules/@getscope/npm-webfont-exo2/src/scss/_900-italic.scss";
-@import "node_modules/@getscope/npm-webfont-exo2/src/scss/_all-italic.scss";
 ```

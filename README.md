@@ -36,14 +36,14 @@ body {
 
 Для импорта веб-шрифта в `SCSS`, Вы можете воспользоваться следующими путями:
 
-####Импорт начертаний `normal` и `italic`
+#### Импорт начертаний `normal` и `italic`
 
 ```scss 
 @import "node_modules/@getscope/npm-webfont-exo2/src/scss/_all-normal.scss";
 @import "node_modules/@getscope/npm-webfont-exo2/src/scss/_all-italic.scss";
 ```
 
-####Импорт начертаний `normal`
+#### Импорт начертаний `normal`
 
 ```scss 
 @import "node_modules/@getscope/npm-webfont-exo2/src/scss/_100-normal.scss";
@@ -58,7 +58,7 @@ body {
 @import "node_modules/@getscope/npm-webfont-exo2/src/scss/_all-normal.scss";
 ```
 
-####Импорт начертаний `italic`
+#### Импорт начертаний `italic`
 
 ```scss 
 @import "node_modules/@getscope/npm-webfont-exo2/src/scss/_100-italic.scss";

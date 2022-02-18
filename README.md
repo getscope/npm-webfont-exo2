@@ -49,6 +49,8 @@ body {
 @import "node_modules/@getscope/npm-webfont-exo2/src/scss/_all-normal.scss";
 ```
 
+или
+
 ```scss 
 @import "node_modules/@getscope/npm-webfont-exo2/src/scss/_100-normal.scss";
 @import "node_modules/@getscope/npm-webfont-exo2/src/scss/_200-normal.scss";
@@ -66,6 +68,8 @@ body {
 ```scss 
 @import "node_modules/@getscope/npm-webfont-exo2/src/scss/_all-italic.scss";
 ```
+
+или
 
 ```scss 
 @import "node_modules/@getscope/npm-webfont-exo2/src/scss/_100-italic.scss";
